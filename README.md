@@ -38,9 +38,9 @@ sources) used to predict the observed field at arbitrary locations.
 Upward-continuation, interpolation, gradient calculations, leveling, and
 reduction-to-the-pole can be performed simultaneously by using the model
 to make predictions (i.e., forward modelling).
-The main challenges in applying equivalent-source processing in practice are
-the heavy computational load of fitting the model and its sensitivity to
-configuration parameters, mainly the source depth and regularization parameter.
+The main challenges in applying equivalent-source processing are the heavy
+computational load of fitting the model and its sensitivity to configuration
+parameters, mainly the source depth and regularization parameter.
 
 These objectives and challenges are shared with the many types of regression
 methods in machine learning (ML).
