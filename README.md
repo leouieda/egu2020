@@ -57,9 +57,10 @@ rather than randomly.
 Indeed, we obtain more conservative accuracy estimates when applying blocked
 versions of random permutations and k-fold to synthetic data.
 
-The equivalent-source method used in this study is implemented in the
-open-source Python software
-Implementations of blocked CV and equivalent-source methods are
+Open-source software implementations of the equivalent-source and blocked
+cross-validation (in progress) methods are available in the Python libraries
+Harmonica and Verde, which are part of the Fatiando a Terra project
+([www.fatiando.org](https://www.fatiando.org/)).
 
 
 ## License
