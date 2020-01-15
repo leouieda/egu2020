@@ -11,8 +11,8 @@ Abstract submitted to the EGU2020 General Assembly.
 
 |        |Info|
 |-------:|:---|
-|Session |TBD|
-|Abstract|TBD|
+|Session |[G4.3: Acquisition and processing of gravity and magnetic field data and their integrative interpretation](https://meetingorganizer.copernicus.org/EGU2020/session/35332)|
+|Abstract|[EGU2020-15729](https://meetingorganizer.copernicus.org/EGU2020/EGU2020-15729.html)|
 |When    |TBD|
 |Where   |TBD|
 |Download|doi:TBD|
