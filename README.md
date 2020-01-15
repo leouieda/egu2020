@@ -9,27 +9,32 @@
 
 Abstract submitted to the EGU2020 General Assembly.
 
-|    |Info|
-|---:|:---|
-|Session||
-|Abstract||
-|When||
-|Where||
-|Download|doi:|
+|        |Info|
+|-------:|:---|
+|Session |TBD|
+|Abstract|TBD|
+|When    |TBD|
+|Where   |TBD|
+|Download|doi:TBD|
 
 
 ## Abstract
 
 We investigate the use of cross-validation (CV) techniques to estimate the
-accuracy of equivalent-source (also known as equivalent-layer) interpolation
-and processing of potential-field data.
+accuracy of equivalent-source (also known as equivalent-layer) models for
+interpolation and processing of potential-field data.
 Our preliminary results indicate that some common CV algorithms (e.g., random
 permutations and k-folds) tend to overestimate the accuracy.
 Prior research from the statistical modelling of ecological data suggests that
-this is due to spatial auto-correlation of the data.
+this is due to the spatial auto-correlation of the data.
+These issues can be addressed by the use of blocked CV
+methods, where the data are split along spatial blocks instead of randomly.
 Indeed, we have found more conservative accuracy estimates when applying
-blocked CV methods, where the data are split along spatial blocks instead of
-randomly.
+blocked versions of random permutations and k-fold CV.
+The accurate evaluation of model performance opens the door for automatically
+determining model configuration, like equivalent-source depth and the
+regularization parameter, in a process known as hyper-parameter optimization.
+
 
 
 ## License
