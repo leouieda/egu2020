@@ -25,6 +25,24 @@ accuracy of equivalent-source (also known as equivalent-layer) models for
 interpolation and processing of potential-field data.
 Our preliminary results indicate that some common CV algorithms (e.g., random
 permutations and k-folds) tend to overestimate the accuracy.
+We have found that blocked CV methods, where the data are split along spatial
+blocks instead of randomly, provide more conservative accuracy estimates.
+Beyond evaluating an equivalent-source model's performance, cross-validation
+can be used to automatically determine configuration parameters, like source
+depth and amount of regularization, that maximize prediction accuracy and avoid
+over-fitting.
+
+Widely used in gravity and magnetic data processing,
+the equivalent-source technique consists of a linear model (usually point
+sources) used to predict the observed field at arbitrary locations.
+Upward-continuation, interpolation, gradient calculations, leveling, and
+reduction-to-the-pole can be be done, even simultaneously, by using the model
+to make predictions (i.e., a forward modelling operation).
+The main challenges in applying equivalent-source processing in practice are
+the heavy computational load of fitting the model and its sensitivity to
+configuration parameters, mainly the source depth and regularization parameter.
+
+
 Prior research from the statistical modelling of ecological data suggests that
 this is due to the spatial auto-correlation of the data.
 These issues can be addressed by the use of blocked CV
