@@ -44,7 +44,8 @@ The predictive performance of ML models is usually evaluated through
 cross-validation, in which the data are split (usually randomly) into a
 training set and a validation set.
 Models are fit on the training set and their predictions are evaluated using
-the validation set using a goodness-of-fit metric (e.g., mean square error).
+the validation set using a goodness-of-fit metric, like the mean square error
+or the R² coefficient of determination.
 Prior research from the statistical modelling of ecological data suggests that
 prediction accuracy is usually overestimated when the data are spatially
 auto-correlated.
