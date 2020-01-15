@@ -48,7 +48,7 @@ the validation set using a goodness-of-fit metric, like the mean square error
 or the R² coefficient of determination.
 Prior research from the statistical modelling of ecological data suggests that
 prediction accuracy is usually overestimated when the data are spatially
-auto-correlated.
+auto-correlated, as is the case with potential-field data.
 This issue can be mitigated by splitting the data along spatial blocks
 rather than randomly.
 Indeed, we obtain more conservative accuracy estimates when applying blocked
