@@ -1,10 +1,11 @@
 # Evaluating the accuracy of equivalent-source predictions using cross-validation
 
 [Leonardo Uieda](https://www.leouieda.com/)<sup>1</sup> and
-[Santiago Soler](https://santisoler.github.io/)<sup>2</sup>
+[Santiago Soler](https://santisoler.github.io/)<sup>2,3</sup>
 
 > <sup>1</sup>Department of Earth, Ocean and Ecological Sciences, School of Environmental Sciences, University of Liverpool, UK<br>
-> <sup>2</sup>CONICET | Instituto Geofísico Sismológico Volponi, Universidad Nacional de San Juan, Argentina<br>
+> <sup>2</sup>CONICET, Argentina<br>
+> <sup>3</sup>Instituto Geofísico Sismológico Volponi, Universidad Nacional de San Juan, Argentina<br>
 
 Abstract submitted to the EGU2020 General Assembly.
 
