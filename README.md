@@ -20,6 +20,16 @@ Abstract submitted to the EGU2020 General Assembly.
 
 ## Abstract
 
+We investigate the use of cross-validation (CV) techniques to estimate the
+accuracy of equivalent-source (also known as equivalent-layer) interpolation
+and processing of potential-field data.
+Our preliminary results indicate that some common CV algorithms (e.g., random
+permutations and k-folds) tend to overestimate the accuracy.
+Prior research from the statistical modelling of ecological data suggests that
+this is due to spatial auto-correlation of the data.
+Indeed, we have found more conservative accuracy estimates when applying
+blocked CV methods, where the data are split along spatial blocks instead of
+randomly.
 
 
 ## License
