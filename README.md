@@ -42,17 +42,24 @@ The main challenges in applying equivalent-source processing in practice are
 the heavy computational load of fitting the model and its sensitivity to
 configuration parameters, mainly the source depth and regularization parameter.
 
-
+These objectives and challenges are shared with the many types of regression
+methods in machine learning (ML).
+The predictive performance of ML models is usually evaluated through
+cross-validation, in which the data are split (usually randomly) into a
+training set and a validation set.
+Models are fit on the training set and their predictions are evaluated using
+the validation set using a goodness-of-fit metric (e.g., mean square error).
 Prior research from the statistical modelling of ecological data suggests that
-this is due to the spatial auto-correlation of the data.
-These issues can be addressed by the use of blocked CV
-methods, where the data are split along spatial blocks instead of randomly.
-Indeed, we have found more conservative accuracy estimates when applying
-blocked versions of random permutations and k-fold CV.
-The accurate evaluation of model performance opens the door for automatically
-determining model configuration, like equivalent-source depth and the
-regularization parameter, in a process known as hyper-parameter optimization.
+prediction accuracy is usually overestimated when the data are spatially
+auto-correlated.
+This issue can be mitigated by splitting the data along spatial blocks
+rather than randomly.
+Indeed, we obtain more conservative accuracy estimates when applying blocked
+versions of random permutations and k-fold to synthetic data.
 
+The equivalent-source method used in this study is implemented in the
+open-source Python software
+Implementations of blocked CV and equivalent-source methods are
 
 
 ## License
